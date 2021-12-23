@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DC65362774D26200C20F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC65352774D26200C20F17 /* AppDelegate.swift */; };
+		74DC65382774D26200C20F17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC65372774D26200C20F17 /* ViewController.swift */; };
+		74DC653B2774D26200C20F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DC65392774D26200C20F17 /* Main.storyboard */; };
+		74DC653D2774D26500C20F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DC653C2774D26500C20F17 /* Assets.xcassets */; };
+		74DC65402774D26500C20F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DC653E2774D26500C20F17 /* LaunchScreen.storyboard */; };
+		74DC654A2774D26600C20F17 /* Bluetooth_DisablerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC65492774D26600C20F17 /* Bluetooth_DisablerTests.swift */; };
+		74DC65542774D26600C20F17 /* Bluetooth_DisablerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC65532774D26600C20F17 /* Bluetooth_DisablerUITests.swift */; };
+		74DC65562774D26600C20F17 /* Bluetooth_DisablerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC65552774D26600C20F17 /* Bluetooth_DisablerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DC65462774D26600C20F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DC652A2774D26200C20F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DC65312774D26200C20F17;
+			remoteInfo = "Bluetooth-Disabler";
+		};
+		74DC65502774D26600C20F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DC652A2774D26200C20F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DC65312774D26200C20F17;
+			remoteInfo = "Bluetooth-Disabler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74DC65322774D26200C20F17 /* Bluetooth-Disabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth-Disabler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DC65352774D26200C20F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74DC65372774D26200C20F17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74DC653A2774D26200C20F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74DC653C2774D26500C20F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74DC653F2774D26500C20F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74DC65452774D26600C20F17 /* Bluetooth-DisablerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth-DisablerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DC65492774D26600C20F17 /* Bluetooth_DisablerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_DisablerTests.swift; sourceTree = "<group>"; };
+		74DC654F2774D26600C20F17 /* Bluetooth-DisablerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth-DisablerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DC65532774D26600C20F17 /* Bluetooth_DisablerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_DisablerUITests.swift; sourceTree = "<group>"; };
+		74DC65552774D26600C20F17 /* Bluetooth_DisablerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_DisablerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DC652F2774D26200C20F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC65422774D26600C20F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC654C2774D26600C20F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DC65292774D26200C20F17 = {
+			isa = PBXGroup;
+			children = (
+				74DC65342774D26200C20F17 /* Bluetooth-Disabler */,
+				74DC65482774D26600C20F17 /* Bluetooth-DisablerTests */,
+				74DC65522774D26600C20F17 /* Bluetooth-DisablerUITests */,
+				74DC65332774D26200C20F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74DC65332774D26200C20F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DC65322774D26200C20F17 /* Bluetooth-Disabler.app */,
+				74DC65452774D26600C20F17 /* Bluetooth-DisablerTests.xctest */,
+				74DC654F2774D26600C20F17 /* Bluetooth-DisablerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DC65342774D26200C20F17 /* Bluetooth-Disabler */ = {
+			isa = PBXGroup;
+			children = (
+				74DC65352774D26200C20F17 /* AppDelegate.swift */,
+				74DC65372774D26200C20F17 /* ViewController.swift */,
+				74DC65392774D26200C20F17 /* Main.storyboard */,
+				74DC653C2774D26500C20F17 /* Assets.xcassets */,
+				74DC653E2774D26500C20F17 /* LaunchScreen.storyboard */,
+			);
+			path = "Bluetooth-Disabler";
+			sourceTree = "<group>";
+		};
+		74DC65482774D26600C20F17 /* Bluetooth-DisablerTests */ = {
+			isa = PBXGroup;
+			children = (
+				74DC65492774D26600C20F17 /* Bluetooth_DisablerTests.swift */,
+			);
+			path = "Bluetooth-DisablerTests";
+			sourceTree = "<group>";
+		};
+		74DC65522774D26600C20F17 /* Bluetooth-DisablerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74DC65532774D26600C20F17 /* Bluetooth_DisablerUITests.swift */,
+				74DC65552774D26600C20F17 /* Bluetooth_DisablerUITestsLaunchTests.swift */,
+			);
+			path = "Bluetooth-DisablerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DC65312774D26200C20F17 /* Bluetooth-Disabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DC65592774D26600C20F17 /* Build configuration list for PBXNativeTarget "Bluetooth-Disabler" */;
+			buildPhases = (
+				74DC652E2774D26200C20F17 /* Sources */,
+				74DC652F2774D26200C20F17 /* Frameworks */,
+				74DC65302774D26200C20F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluetooth-Disabler";
+			productName = "Bluetooth-Disabler";
+			productReference = 74DC65322774D26200C20F17 /* Bluetooth-Disabler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74DC65442774D26600C20F17 /* Bluetooth-DisablerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DC655C2774D26600C20F17 /* Build configuration list for PBXNativeTarget "Bluetooth-DisablerTests" */;
+			buildPhases = (
+				74DC65412774D26600C20F17 /* Sources */,
+				74DC65422774D26600C20F17 /* Frameworks */,
+				74DC65432774D26600C20F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DC65472774D26600C20F17 /* PBXTargetDependency */,
+			);
+			name = "Bluetooth-DisablerTests";
+			productName = "Bluetooth-DisablerTests";
+			productReference = 74DC65452774D26600C20F17 /* Bluetooth-DisablerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74DC654E2774D26600C20F17 /* Bluetooth-DisablerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DC655F2774D26600C20F17 /* Build configuration list for PBXNativeTarget "Bluetooth-DisablerUITests" */;
+			buildPhases = (
+				74DC654B2774D26600C20F17 /* Sources */,
+				74DC654C2774D26600C20F17 /* Frameworks */,
+				74DC654D2774D26600C20F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DC65512774D26600C20F17 /* PBXTargetDependency */,
+			);
+			name = "Bluetooth-DisablerUITests";
+			productName = "Bluetooth-DisablerUITests";
+			productReference = 74DC654F2774D26600C20F17 /* Bluetooth-DisablerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DC652A2774D26200C20F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					74DC65312774D26200C20F17 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					74DC65442774D26600C20F17 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 74DC65312774D26200C20F17;
+					};
+					74DC654E2774D26600C20F17 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 74DC65312774D26200C20F17;
+					};
+				};
+			};
+			buildConfigurationList = 74DC652D2774D26200C20F17 /* Build configuration list for PBXProject "Bluetooth-Disabler" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74DC65292774D26200C20F17;
+			productRefGroup = 74DC65332774D26200C20F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DC65312774D26200C20F17 /* Bluetooth-Disabler */,
+				74DC65442774D26600C20F17 /* Bluetooth-DisablerTests */,
+				74DC654E2774D26600C20F17 /* Bluetooth-DisablerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DC65302774D26200C20F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC65402774D26500C20F17 /* LaunchScreen.storyboard in Resources */,
+				74DC653D2774D26500C20F17 /* Assets.xcassets in Resources */,
+				74DC653B2774D26200C20F17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC65432774D26600C20F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC654D2774D26600C20F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DC652E2774D26200C20F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC65382774D26200C20F17 /* ViewController.swift in Sources */,
+				74DC65362774D26200C20F17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC65412774D26600C20F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC654A2774D26600C20F17 /* Bluetooth_DisablerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC654B2774D26600C20F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC65542774D26600C20F17 /* Bluetooth_DisablerUITests.swift in Sources */,
+				74DC65562774D26600C20F17 /* Bluetooth_DisablerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DC65472774D26600C20F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DC65312774D26200C20F17 /* Bluetooth-Disabler */;
+			targetProxy = 74DC65462774D26600C20F17 /* PBXContainerItemProxy */;
+		};
+		74DC65512774D26600C20F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DC65312774D26200C20F17 /* Bluetooth-Disabler */;
+			targetProxy = 74DC65502774D26600C20F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74DC65392774D26200C20F17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DC653A2774D26200C20F17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74DC653E2774D26500C20F17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DC653F2774D26500C20F17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DC65572774D26600C20F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		74DC65582774D26600C20F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DC655A2774D26600C20F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlphaGradeINC.Bluetooth-Disabler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		74DC655B2774D26600C20F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlphaGradeINC.Bluetooth-Disabler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		74DC655D2774D26600C20F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlphaGradeINC.Bluetooth-DisablerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth-Disabler.app/Bluetooth-Disabler";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		74DC655E2774D26600C20F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlphaGradeINC.Bluetooth-DisablerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluetooth-Disabler.app/Bluetooth-Disabler";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Release;
+		};
+		74DC65602774D26600C20F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlphaGradeINC.Bluetooth-DisablerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Bluetooth-Disabler";
+			};
+			name = Debug;
+		};
+		74DC65612774D26600C20F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AlphaGradeINC.Bluetooth-DisablerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Bluetooth-Disabler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DC652D2774D26200C20F17 /* Build configuration list for PBXProject "Bluetooth-Disabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC65572774D26600C20F17 /* Debug */,
+				74DC65582774D26600C20F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DC65592774D26600C20F17 /* Build configuration list for PBXNativeTarget "Bluetooth-Disabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC655A2774D26600C20F17 /* Debug */,
+				74DC655B2774D26600C20F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DC655C2774D26600C20F17 /* Build configuration list for PBXNativeTarget "Bluetooth-DisablerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC655D2774D26600C20F17 /* Debug */,
+				74DC655E2774D26600C20F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DC655F2774D26600C20F17 /* Build configuration list for PBXNativeTarget "Bluetooth-DisablerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC65602774D26600C20F17 /* Debug */,
+				74DC65612774D26600C20F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DC652A2774D26200C20F17 /* Project object */;
+}
